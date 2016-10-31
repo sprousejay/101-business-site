@@ -24,7 +24,7 @@ The only php component you need to build in the next few days is the highlighted
 
 We'll roll out more-challenging PHP components as bonuses as you continue to work through the site.
 
-At the end of this assignment you will have accomplished:
+:exclamation: At the end of this assignment you will have accomplished: :exclamation:
 - [ ] A build of all six pages of the site
 - [ ] Adherence to BEM convention throughout your work
 - [ ] Correct implementation of Flexbox
