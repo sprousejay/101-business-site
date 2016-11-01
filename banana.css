@@ -1,0 +1,85 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 30px;
+	padding-left: 105px;
+	padding-bottom:10px;
+	padding-right: 75px;
+	box-shadow: 0px 50px 60px 1px #F5F5F5;
+}
+
+.nav__link {
+	text-decoration: none;
+	font-family: serif;
+	padding: 30px 30px;
+	color: #FD907A;
+}
+
+.booking__link {
+	text-decoration: none;
+	color: white;
+	background-color: #FD907A;
+	border-radius: 35px;
+	padding: 10px 25px;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 75px;
+	margin-right: 75px;
+	padding: 75px 75px;
+
+}
+
+.wrapper2 {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 75px;
+	margin-right: 75px;
+	padding: 75px 75px;
+
+}
+
+.image {
+	width: 300px;
+	
+}
+
+h3 {
+	color: #FD907A;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sub_image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.massage_desription {
+	font-family: sans-serif;
+	text-decoration: none;
+	justify-content: center;
+
+}
+
+p {
+	display: flex;
+	justify-content: center;
+	align-items: center;font-family: sans-serif;
+	text-decoration: none;
+	width: 300px;
+}
+
+.footer {
+	background-color:#FCFBF4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
