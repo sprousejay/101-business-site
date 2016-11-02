@@ -19,6 +19,9 @@
 	color: #FD907A;
 }
 
+.nav__link--current-page {
+}
+
 .nav__link--booking {
 	text-decoration: none;
 	color: white;
