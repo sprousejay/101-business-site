@@ -27,9 +27,9 @@
 .wrapper {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 30px;
+	padding-top: 40px;
 	padding-left: 75px;
-	padding-bottom:10px;
+	padding-bottom: 30px;
 	padding-right: 75px;
 
 }
@@ -37,9 +37,10 @@
 .wrapper2 {
 	display: flex;
 	justify-content: space-between;
-	margin-left: 75px;
-	margin-right: 75px;
-	padding: 75px 75px;
+	padding-top: 40px;
+	padding-left: 75px;
+	padding-bottom: 30px;
+	padding-right: 75px;
 }
 
 .image {
@@ -75,16 +76,24 @@ p {
 }
 
 .footer {
-	background-color:#FCFBF4;
+	background-color: #FCFBF4;
 	padding-left: 75px;
 	padding-right: 75px;
 }
 
-.contact {
+.home__button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.store_info {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	font-family: sans-serif;
+	padding-top: 40px;
+	padding-bottom: 60px;
 }
 
 .masseuse {
@@ -100,5 +109,8 @@ h5 {
 	font-weight: lighter;
 	font-family: sans-serif;
 	color: grey;
+}
+
+.contact {
 }
 
