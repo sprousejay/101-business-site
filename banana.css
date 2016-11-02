@@ -43,6 +43,15 @@
 	padding-right: 75px;
 }
 
+h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	font-family: 'Merriweather', serif;
+	font-weight: lighter;
+}
+
 .image {
 	width: 300px;
 }
