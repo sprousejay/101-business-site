@@ -1,5 +1,10 @@
 <?php
-
+	$currentPage = "Services";
+	function isCurrentPage(){
+		if ($pageName == $currentPage) {
+			echo "nav__link--Active";
+		}
+	}
 ?>
 <!DOCTYPE html>
 <html>
@@ -10,16 +15,17 @@
 <body>
 
 	<div class="header">
-		<a href="hompage.html">
+		<a href="hompage.php">
 			<img src="images/logo.png" class="header-image">
 		</a>
 		<div class="nav">
-			<a href="homepage.html" class="nav__link">Home</a>
-			<a href="pricing.html" class="nav__link">Pricing</a>
-			<a href="masseurs.html" class="nav__link">Masseurs</a>
-			<a href="services.html" class="nav__link">Services</a>
-			<a href="contacts.html" class="nav__link">Contacts</a>
-			<a href="booking.html" class="nav__link--booking">Book an appointment</a>
+			<a href="homepage.php class="nav__link">Home</a>
+			<a href="pricing.php" class="nav__link">Pricing</a>
+			<a href="masseurs.php" class="nav__link">Masseurs</a>
+			<a href="services.php" class="nav__link <?php isCurrentPage('
+			Services', $currentPage); ?>">Services</a>
+			<a href="contacts.php" class="nav__link">Contacts</a>
+			<a href="booking.php" class="nav__link--booking">Book an appointment</a>
 		</div>
 	</div>
 
@@ -76,7 +82,7 @@
 	</div>
 
 		<div class="footer">
-			<a href="hompage.html">
+			<a href="hompage.php">
 				<img src="images/logo.png" class="footer-image">
 			</a>
 			

@@ -6,21 +6,22 @@
 </head>
 <body>
 
-	<div class="header"><a href="hompage.html">
-		<img src="images/logo.png"></a>
-		<div class= navigation>
-			<a href="homepage.html" class="nav__link">Home</a>
-			<a href="pricing.html" class="nav__link">Pricing</a>
-			<a href="masseurs.html" class="nav__link">Masseurs</a>
-			<a href="services.html" class="nav__link">Services</a>
-			<a href="contacts.html" class="nav__link">Contacts</a>
-			<a href="booking.html" class="booking__link">Book an appointment</a>
+	<div class="header">
+		<a href="hompage.php">
+			<img src="images/logo.png" class="header-image">
+		</a>
+		<div class="nav">
+			<a href="homepage.php" class="nav__link">Home</a>
+			<a href="pricing.php" class="nav__link">Pricing</a>
+			<a href="masseurs.php" class="nav__link">Masseurs</a>
+			<a href="services.php" class="nav__link">Services</a>
+			<a href="contacts.php" class="nav__link">Contacts</a>
+			<a href="booking.php" class="nav__link--booking">Book an appointment</a>
 		</div>
 	</div>
 
 
-
-	<div class="footer"><a href="hompage.html">
+	<div class="footer"><a href="hompage.php">
 			<div class="home-icon"><img src="images/logo.png"></a></div>
 			
 			<div class="store_info">
