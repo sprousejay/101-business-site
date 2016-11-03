@@ -113,7 +113,6 @@ h5 {
 	padding: 5px 50px;
 	font-family: sans-serif;
 	font-weight: lighter;
-
 }
 
 .contactRow {
@@ -142,10 +141,9 @@ h5 {
 	background-color: #FD907A;
 	color: white;
 }
-
-
-.contact__title {
+.contatct__title {
 	font-family: sans-serif;
+
 }
 
 .contact__details {
@@ -154,10 +152,19 @@ h5 {
 	color: grey;
 }
 
+.reference__title {
+	text-align: left;
+	font-size: 30px;
+	padding-left: 50px
+}
 .locate {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
+	font-family: sans-serif;
+	padding-left: 50px;
+	font-weight: bold;
+}
+
+.locate__details {
+	font-weight: lighter;
+	color: grey;
 }
 

@@ -28,69 +28,76 @@
 		</div>
 	</div>
 
-	<h1>Find us</h1>
-	<div class="locate">
-
+	<p class="reference__title">Find us</p>
+	<div class="reference">
+				<div class="locate">
+					<img class="locate__image">
 					<div>
-						<p class="contact__title">Call Today:</p>
-						<p class="contact__details">555-123-5353</p>
-						<p class="contact__details">555-12-2323</p>
+						<p class="locate__title">Address:</p>
+						<p class="locate__details">1163 N State St, Chicago,</p>
+						<p class="locate__details">IL 60610, United States</p>
+					</div>
+					
+				<div class="locate">
+					<img class="locate__image">
+					<div>
+						<p class="locate__title">Call Us Today:</p>
+						<p class="locate__details">555-123-5353</p>
+						<p class="locate__details">555-12-2323</p>
 					</div>
 				</div>
 				
-				<div class="contact">
-					<img class="contact__image">
+				<div class="locate">
+					<img class="locate__image">
 					<div>
-						<p class="contact__title">Email:</p>
-						<p class="contact__details">info.demolink.org</p>
+						<p class="locate__title">Contact e-mail:</p>
+						<p class="locate__details">info.demolink.org</p>
 					</div>
 				</div>
 
-				<div class="contact">
+
+				<div class="locate">
 					<img class="contact__image">
 					<div>
-						<p class="contact__title">Address:</p>
-						<p class="contact__details">1163 N State St, Chicago,</p>
-						<p class="contact__details">IL 60610, United States</p>
+						<p class="locate__title">Opening Hours:</p>
+						<p class="locate__details">Mon-Fri: 9am-6pm;</p>
+						<p class="locate__details">Sun: 10am-1pm</p>
 					</div>
 				</div>
 
-				<div class="contact">
-					<img class="contact__image">
-					<div>
-						<p class="contact__title">Opening Hours:</p>
-						<p class="contact__details">Mon-Fri: 9am-6pm;</p>
-						<p class="contact__details">Sun: 10am-1pm</p>
-					</div>
+				<div>
+				<a href="booking.php" class="nav__link--booking">Book an appointment</a>
 				</div>
-	</div>
+
 	
 
-	<div class="touch">
-	<h1>Get in touch with us</h1>
+			<div class="touch">
+				<h1>Get in touch with us</h1>
+			
+
+				<form class="contactForm">
+					<div class="contactRow">
+						<div class="column">
+							<label>Your name *</label>
+							<input class="formInput" type="text">
+						</div>
+
+						<div class="column">
+							<label>Subject</label> 
+							<input class="formInput" type="text">
+						</div>
+					</div>
+
+					<label>Email address *</label>
+					<input class="formInput" type="text"> 
+
+					<label>Your message *</label>
+					<textarea class="formInput"></textarea>
+
+					<input class="sendButton" type="submit" value="Send">
+				</form>
+			</div>
 	</div>
-
-	<form class="contactForm">
-		<div class="contactRow">
-			<div class="column">
-				<label>Your name *</label>
-				<input class="formInput" type="text">
-			</div>
-
-			<div class="column">
-				<label>Subject</label> 
-				<input class="formInput" type="text">
-			</div>
-		</div>
-
-		<label>Email address *</label>
-		<input class="formInput" type="text"> 
-
-		<label>Your message *</label>
-		<textarea class="formInput"></textarea>
-
-		<input class="sendButton" type="submit" value="Send">
-	</form>
 
 		<div class="footer">
 			<a href="hompage.php">
