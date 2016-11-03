@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -87,18 +90,30 @@
 					</div>
 				</div>
 				
-				<div class="contact">Email:<br>
-				<a href="mailto:youremailaddress">info@demolink.org</a><br>
-				</div>
-				
-				<div class="contact">Address:<br>
-				1163 N State St. Chicago,<br>
-				IL 60610, United States<br>
+				<div class="contact">
+					<img class="contact__image">
+					<div>
+						<p class="contact__title">Email:</p>
+						<p class="contact__details">info.demolink.org</p>
+					</div>
 				</div>
 
-				<div class="contact">Opening Hours:<br>
-				Mon-Fri:9am-6pm;<br>
-				Sun:10am-1pm<br>
+				<div class="contact">
+					<img class="contact__image">
+					<div>
+						<p class="contact__title">Address:</p>
+						<p class="contact__details">1163 N State St, Chicago,</p>
+						<p class="contact__details">IL 60610, United States</p>
+					</div>
+				</div>
+
+				<div class="contact">
+					<img class="contact__image">
+					<div>
+						<p class="contact__title">Opening Hours:</p>
+						<p class="contact__details">Mon-Fri: 9am-6pm;</p>
+						<p class="contact__details">Sun: 10am-1pm</p>
+					</div>
 				</div>
 			</div>
 		</div>
