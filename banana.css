@@ -71,18 +71,21 @@ h3 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
 
+.contact__image {
+	color: #FD907A;
 }
 
 .store-info {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 	font-family: sans-serif;
 	padding-top: 40px;
 	padding-bottom: 60px;
 }
 
+}
 .masseuse {
 	margin: auto;
 	padding: 10px 10px;
@@ -127,11 +130,16 @@ h5 {
 	height: 45px;
 }
 
+
 .column {
 	display: flex;
 	flex-direction: column;
+	justify-content: flex-start;
 	width: 100%;
+	padding-right: 20px;
+	padding-bottom: 20px;
 }
+
 
 .sendButton {
 	width: 95px;
@@ -143,6 +151,7 @@ h5 {
 }
 .contatct__title {
 	font-family: sans-serif;
+	color: #011C4B;
 
 }
 
@@ -166,5 +175,20 @@ h5 {
 .locate__details {
 	font-weight: lighter;
 	color: grey;
+}
+
+.pageContent {
+	display: flex;
+}
+
+.touch {
+	width: 100%;
+	padding-right: 40px;
+	padding-left: 130px;
+	padding-top: 20px;
+}
+
+.map {
+	padding: 40px 20px;
 }
 
