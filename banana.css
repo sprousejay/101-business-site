@@ -43,6 +43,10 @@ h1 {
 	font-weight: lighter;
 }
 
+.masseuse {
+	margin: 30px 30px;
+}
+
 .massage-type {
 	display: flex;
 	flex-direction: column;
@@ -189,6 +193,6 @@ h5 {
 }
 
 .map {
-	padding: 40px 20px;
+	padding: 60px 20px;
 }
 
