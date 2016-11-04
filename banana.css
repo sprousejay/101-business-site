@@ -79,12 +79,12 @@ h3 {
 
 .contact__image {
 	color: #FD907A;
+	margin-right: 10px;
 }
 
 .store-info {
 	display: flex;
 	align-items: flex-start;
-	font-family: sans-serif;
 	padding-top: 40px;
 	padding-bottom: 60px;
 }
@@ -112,6 +112,8 @@ h5 {
 
 .contact {
 	padding: 10px 80px;
+	display: flex;
+	align-items: baseline;
 }
 
 .contactForm {
@@ -153,16 +155,17 @@ h5 {
 	background-color: #FD907A;
 	color: white;
 }
-.contatct__title {
+
+.contact__title {
 	font-family: sans-serif;
 	color: #011C4B;
-
 }
 
 .contact__details {
 	font-weight: lighter;
 	font-family: sans-serif;
 	color: grey;
+	font-size: 14px;
 }
 
 .reference__title {

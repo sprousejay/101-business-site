@@ -87,5 +87,7 @@
 		<input class="sendButton" type="submit" value="Send">
 	</form>
 	
+
 	<?php include 'footer.php';?>
+
 
