@@ -94,17 +94,16 @@
 			
 			<div class="store-info">
 				<div class="contact">
+					<i class="fa fa-phone contact__image fa-fw" aria-hidden="true"></i>
 					<div>
-						<i class="fa fa-phone contact__image"></i><p class="contact__title">Call Today:</p>
+						<p class="contact__title">Call Today:</p>
 						<p class="contact__details">555-123-5353</p>
 						<p class="contact__details">555-123-2323</p>
 					</div>
 				</div>
 				
 				<div class="contact">
-					<div>
-						<i class="fa fa-envelope-o contact__image"></i>
-					</div>
+					<i class="fa fa-envelope-o contact__image"></i>
 					<div>
 						<p class="contact__title">Email:</p>
 						<p class="contact__details">info.demolink.org</p>
