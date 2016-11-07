@@ -218,14 +218,21 @@ h5 {
 .package {
 	display: flex;
 	justify-content: flex-start;
-	align-items: center;
+	align-items: flex-start;
+	padding: 25px 50px;
 	
 }
 
-
+.prices {
+	padding: 10px 10px;
+}
 .cost {
 	color: #FD907A;
 	font-size: 60px;
+	text-align: center;
 }
 
+p {
+	text-align: center;
+}
 

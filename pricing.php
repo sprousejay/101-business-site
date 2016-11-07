@@ -19,7 +19,7 @@
 				4 SESSIONS
 			</div>
 			<div>
-				Our pre and postnatal massages have proven to be effective and absolutely safe, both for women and their unborn babies...
+				<p>Our pre and postnatal massages have proven to be effective and absolutely safe, both for women and their unborn babies...</p>
 			</div>
 			<div>
 				<a href="booking.php" class="nav__link--booking">Book an appointment</a>
@@ -35,7 +35,7 @@
 				4 SESSIONS
 			</div>
 			<div>
-				This massage category if our most popular one and for a good reason. It gives you a completely refreshing experince!
+				<p>This massage category if our most popular one and for a good reason. It gives you a completely refreshing experince!</p>
 			</div>
 			<div>
 				<a href="booking.php" class="nav__link--booking">Book an appointment</a>
@@ -51,7 +51,7 @@
 				4 SESSIONS
 			</div>
 			<div>
-				Try our "Hot Stones" or "Stones and Sticks" massages, which are both fun and good for your overall health and wellbeing!
+				<p>Try our "Hot Stones" or "Stones and Sticks" massages, which are both fun and good for your overall health and wellbeing!</p>
 			</div>
 			<div>
 				<a href="booking.php" class="nav__link--booking">Book an appointment</a>
@@ -72,7 +72,7 @@
 
 	<div>
 		What our happy customers say:
-		<i class="">
+		<i class="fa fa-phone contact__image"></i>
 
 		Men rarely acknowledge how much they love to get a massage... But I want to say, that without my afterwork Friday massage sessions here, my productivity would've been so much lower...
 
