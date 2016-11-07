@@ -12,11 +12,11 @@
 	<div class="package">
 		<div class="prices">
 			<div>
-				<h1>Pre and Postnatal Massages</h1>
+				<div class="option">Pre and Postnatal Massages</div>
 			</div>
 			<div>
-				<span class="cost">$300</span>
-				4 SESSIONS
+				<div class="cost">$300</div>
+				<div class="sessions">4 SESSIONS</div>
 			</div>
 			<div>
 				<p>Our pre and postnatal massages have proven to be effective and absolutely safe, both for women and their unborn babies...</p>
@@ -28,11 +28,11 @@
 
 		<div class="prices">
 			<div> 
-				<h1>Intensive Massage Sessions</h1>
+				<div class="option">Intensive Massage Sessions</div>
 			</div>
 			<div>
-				$400
-				4 SESSIONS
+				<div class="cost">$400</div>
+				<div class="sessions">4 SESSIONS</div>
 			</div>
 			<div>
 				<p>This massage category if our most popular one and for a good reason. It gives you a completely refreshing experince!</p>
@@ -44,11 +44,11 @@
 
 		<div class="prices">
 			<div>
-				<h1>Extravagant and fun-spirited</h1>
+				<div class="option">Extravagant and fun-spirited</div>
 			</div>
 			<div>
-				<span class="cost">$500</span>
-				4 SESSIONS
+				<div class="cost">$500</div>
+				<div class="sessions">4 SESSIONS</div>
 			</div>
 			<div>
 				<p>Try our "Hot Stones" or "Stones and Sticks" massages, which are both fun and good for your overall health and wellbeing!</p>

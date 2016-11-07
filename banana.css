@@ -224,15 +224,32 @@ h5 {
 }
 
 .prices {
-	padding: 10px 10px;
+	padding: 20px 20px;
 }
+
 .cost {
 	color: #FD907A;
 	font-size: 60px;
 	text-align: center;
+	padding: 30px 10px;
 }
 
 p {
 	text-align: center;
+	padding: 25px 25px;
+
+}
+
+.option {
+	font-size: 40px;
+	text-align: center;
+	font-weight: lighter;
+	font-family: sans-serif;
+	padding-bottom: 40px;
+}
+
+.sessions {
+	text-align: center;
+	padding-bottom: 15px;
 }
 
