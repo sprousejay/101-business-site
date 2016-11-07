@@ -6,75 +6,81 @@
 		}
 	}
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Fiona Massage Salon</title>
-	<link rel="stylesheet" type="text/css" href="banana.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-</head>
-<body>
 
-	<div class="header">
-		<a href="hompage.html">
-			<img src="images/logo.png" class="header-image">
-		</a>
-		<div class="nav">
-			<a href="homepage.php" class="nav__link">Home</a>
-			<a href="pricing.php" class="nav__link <?php isCurrentPage('Pricing', $currentPage); ?>">Pricing</a>
-			<a href="masseurs.php" class="nav__link">Masseurs</a>
-			<a href="services.php" class="nav__link">Services</a>
-			<a href="contacts.php" class="nav__link">Contacts</a>
-			<a href="booking.php" class="nav__link--booking">Book an appointment</a>
-		</div>
-	</div>
+	<?php include 'header.php';?>
 
-
-	<div class="footer">
-			<a href="hompage.php">
-				<img src="images/logo.png" class="footer-image">
-			</a>
-			
-			<div class="store-info">
-				<div class="contact">
-					<i class="fa fa-phone contact__image"></i>
-					
-					<div>
-						<p class="contact__title">Call Today:</p>
-						<p class="contact__details">555-123-5353</p>
-						<p class="contact__details">555-12-2323</p>
-					</div>
-				</div>
-				
-				<div class="contact">
-					<div>
-						<i class="fa fa-envelope contact__image"></i>
-					</div>
-					<div>
-						<p class="contact__title">Email:</p>
-						<p class="contact__details">info.demolink.org</p>
-					</div>
-				</div>
-
-				<div class="contact">
-					<i class="fa fa-map contact__image"></i>
-					<div>
-						<p class="contact__title">Address:</p>
-						<p class="contact__details">1163 N State St, Chicago,</p>
-						<p class="contact__details">IL 60610, United States</p>
-					</div>
-				</div>
-
-				<div class="contact">
-					<i class="fa fa-clock-o contact__image"></i>
-					<div>
-						<p class="contact__title">Opening Hours:</p>
-						<p class="contact__details">Mon-Fri: 9am-6pm;</p>
-						<p class="contact__details">Sun: 10am-1pm</p>
-					</div>
-				</div>
+	<div class="package">
+		<div class="prices">
+			<div>
+				<h1>Pre and Postnatal Massages</h1>
+			</div>
+			<div>
+				<span class="cost">$300</span>
+				4 SESSIONS
+			</div>
+			<div>
+				Our pre and postnatal massages have proven to be effective and absolutely safe, both for women and their unborn babies...
+			</div>
+			<div>
+				<a href="booking.php" class="nav__link--booking">Book an appointment</a>
 			</div>
 		</div>
 
-</body>
-</html>
+		<div class="prices">
+			<div> 
+				<h1>Intensive Massage Sessions</h1>
+			</div>
+			<div>
+				$400
+				4 SESSIONS
+			</div>
+			<div>
+				This massage category if our most popular one and for a good reason. It gives you a completely refreshing experince!
+			</div>
+			<div>
+				<a href="booking.php" class="nav__link--booking">Book an appointment</a>
+			</div>
+		</div>
+
+		<div class="prices">
+			<div>
+				<h1>Extravagant and fun-spirited</h1>
+			</div>
+			<div>
+				<span class="cost">$500</span>
+				4 SESSIONS
+			</div>
+			<div>
+				Try our "Hot Stones" or "Stones and Sticks" massages, which are both fun and good for your overall health and wellbeing!
+			</div>
+			<div>
+				<a href="booking.php" class="nav__link--booking">Book an appointment</a>
+			</div>
+		</div>
+	</div>
+
+	<div>
+	Call us now to book a relaxing massage session!
+
+	555-123-2322
+
+	Service Cost: $99.00
+
+	Duration 1h 20m
+	</div>
+
+
+	<div>
+		What our happy customers say:
+		<i class="">
+
+		Men rarely acknowledge how much they love to get a massage... But I want to say, that without my afterwork Friday massage sessions here, my productivity would've been so much lower...
+
+		Rhode Gentlebear
+	</div>
+
+		
+
+
+
+	<?php include 'footer.php';?>

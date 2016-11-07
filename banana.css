@@ -34,6 +34,17 @@
 	padding: 40px 75px;
 }
 
+.team {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.masseuse {
+	padding: 10px 10px;
+
+}
+
 h1 {
 	display: flex;
 	justify-content: center;
@@ -41,10 +52,6 @@ h1 {
 	padding-top: 20px;
 	font-family: 'Merriweather', serif;
 	font-weight: lighter;
-}
-
-.masseuse {
-	margin: 30px 30px;
 }
 
 .massage-type {
@@ -79,7 +86,8 @@ h3 {
 
 .contact__image {
 	color: #FD907A;
-	margin-right: 10px;
+	padding-right: 5px;
+	
 }
 
 .store-info {
@@ -171,12 +179,15 @@ h5 {
 .reference__title {
 	text-align: left;
 	font-size: 30px;
-	padding-left: 50px
 }
+
+
 .locate {
 	font-family: sans-serif;
-	padding-left: 50px;
 	font-weight: bold;
+	display: flex;
+	align-items: baseline;
+	padding-left: 10px;
 }
 
 .locate__details {
@@ -198,4 +209,23 @@ h5 {
 .map {
 	padding: 60px 20px;
 }
+
+.social__image {
+	color: #FD907A;
+	padding:10px 10px;
+}
+
+.package {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	
+}
+
+
+.cost {
+	color: #FD907A;
+	font-size: 60px;
+}
+
 

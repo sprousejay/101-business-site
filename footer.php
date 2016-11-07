@@ -6,7 +6,10 @@
 			<div class="store-info">
 				<div class="contact">
 					<div>
-						<i class="fa fa-phone contact__image"></i><p class="contact__title">Call Today:</p>
+						<i class="fa fa-phone contact__image"></i>
+					</div>
+					<div>
+						<p class="contact__title">Call Today:</p>
 						<p class="contact__details">555-123-5353</p>
 						<p class="contact__details">555-123-2323</p>
 					</div>
