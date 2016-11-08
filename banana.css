@@ -100,6 +100,7 @@ h3 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 50px;
 }
 
 .contact__image {
@@ -445,4 +446,34 @@ h5 {
 	padding-bottom: 50px;
 	font-weight: lighter;
 	color: grey;
+}
+
+.stones {
+	width: 1300px;
+	height: 300px;
+}
+
+.flowers {
+	width: 1300px;
+	height: 500px;
+}
+
+.pros {
+	display: flex;
+	justify-content: space-around;
+}
+
+.stuff {
+	padding: 40px 40px;
+
+}
+
+.stuff__title {
+	font-family: sans-serif;
+	font-size: 25px;
+	text-align: center;
+}
+
+.stuff__img {
+	padding: 20px 20px;
 }
