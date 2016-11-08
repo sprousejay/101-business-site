@@ -60,24 +60,34 @@
 	</div>
 
 	<div>
-		<div class="call">Call us now to book a relaxing massage session!</div>
+		<div class="call">
+			Call us now to book a relaxing massage session!
+		</div>
 
 		<div class="telephone">
-			<i class="fa fa-phone call__image"></i><span class="phone">555-123-2322</span>
+			<i class="fa fa-phone call__image"></i>
+			<span class="phone">555-123-2322</span>
 		</div>
 
 		<div class="dinero">
-			<spanclass="service-cost">Service Cost:</span><span class="money">$99.00</span>
+			<span class="service-cost">Service Cost:</span>
+			<span class="money">$99.00</span>
 		</div>
 
-		<div class="duration">Duration: 1h 20m</div>
+		<div class="duration">
+			Duration: 1h 20m
+		</div>
 	</div>
 
 
 	<div class="customers">
-		<div class="happy">What our happy customers say:</div>
+		<div class="happy">
+			What our happy customers say:
+		</div>
 		
-		<div class="quote"><img src="images/quote.png"></div>
+		<div class="quote">
+			<img src="images/quote.png">
+		</div>
 
 
 		<div class="men">Men rarely acknowledge how much they love to get a massage... But I want to say, that without my afterwork Friday massage sessions here, my productivity would've been so much lower...</div>
