@@ -398,4 +398,7 @@ h5 {
 	align-items: center;
 }
 
+.list {
+	max-width: 200px;
+}
 
