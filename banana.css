@@ -1,3 +1,12 @@
+ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 .header {
 	display: flex;
 	justify-content: space-between;
@@ -390,16 +399,20 @@ h5 {
 	text-align: center;
 }
 
+.list {
+	display: flex;
+}
+
+.listItem {
+	margin-left: 140px;
+}
+
 .list__image {
 	width: 200px;
 	height: 200px;
 	position: relative;
 	overflow: hidden;
 	border-radius: 50%;
-}
-
-.list {
-	max-width: 200px;
 }
 
 .servicesImg {
