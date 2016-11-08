@@ -28,6 +28,15 @@
 	padding: 10px 25px;
 }
 
+.special-prices__nav__link--booking {
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border-radius: 35px;
+	padding: 10px 25px;	
+
+}
+
 .wrapper {
 	display: flex;
 	justify-content: space-between;
@@ -227,6 +236,19 @@ h5 {
 	padding: 20px 20px;
 }
 
+.special-prices {
+	padding: 20px 20px;
+	background-color: #FD907A;
+}
+
+.special-prices__option {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	font-weight: lighter;
+	font-family: sans-serif;
+	padding-bottom: 40px;
+}
 .cost {
 	color: #FD907A;
 	font-size: 60px;
@@ -234,10 +256,23 @@ h5 {
 	padding: 30px 10px;
 }
 
-p {
+.special-prices__cost {
+	color: white;
+	font-size: 60px;
 	text-align: center;
-	padding: 25px 25px;
+	padding: 30px 10px;	
+}
 
+.description {
+	text-align: center;
+	padding: 45px 25px;
+
+}
+
+.special-prices__description {
+	text-align: center;
+	padding: 45px 25px;
+	color: white;
 }
 
 .option {
@@ -252,4 +287,115 @@ p {
 	text-align: center;
 	padding-bottom: 15px;
 }
+
+.special-prices__sessions {
+	text-align: center;
+	padding-bottom: 15px;
+	color: white;
+}
+
+.booker {
+	text-align: center;
+	padding: 20px 25px;
+}
+
+.special-prices__booker {
+	text-align: center;
+	padding: 20px 25px;
+
+}
+
+.call {
+	font-size: 35px;
+	text-align: center;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+
+.call__image {
+	color: #FD907A;
+	border-color: #FD907A;
+	border-radius: 35px;
+	border-style: solid;
+	height: 30px;
+
+
+}
+
+.telephone {
+	text-align: center;
+	padding-bottom: 40px;
+	padding-top: 30px;
+}
+
+.phone {
+	text-align: center;
+	font-size: 40px;
+	padding-bottom: 15px;
+}
+
+.service-cost {
+	font-size: 25px;
+}
+
+.money {
+	font-size: 40px;
+	padding-left: 10px;
+}
+
+.dinero {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.duration {
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 45px;
+}
+
+.customers {
+	background-color: #FCFBF4;
+	text-align: center;
+}
+
+.happy {
+	font-size: 20px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.men {
+	font-style: italic;
+	padding-right: 150px;
+	padding-left: 150px;
+	padding-bottom: 25px;
+	padding-top: 20px;
+}
+
+.here {
+	font-size: 30px;
+	text-align: center;
+	padding-top: 30px;
+
+}
+
+.see {
+	color: white;
+	background-color: #FD907A;
+	border-radius: 35px;
+	padding: 15px 15px;
+	text-align: center;
+}
+
+.list__image {
+	max-width: 20px;
+	padding: 20px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 
