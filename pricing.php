@@ -94,18 +94,24 @@
 	<div class="list">
 
 		<div class="list__image">
-			<img src="images/services-02.jpg">
-			<div class="style">Swedish Massage</div>
+			<img src="images/services-02.jpg" class="servicesImg">
+		</div>
+		<div class="style">
+			Swedish Massage
 		</div>
 
 		<div class="list__image">
-			<img src="images/index-13.jpg">
-			<div class="style">Deep Tissue Massage</div>
+			<img src="images/index-13.jpg" class="servicesImg">
+		</div>
+		<div class="style">
+			Deep Tissue Massage
 		</div>
 
 		<div class="list__image">
-			<img src="images/services-04.jpg">
-			<div class="style">Hot Stones Therapy</div>
+			<img src="images/services-04.jpg" class="servicesImg">
+		</div>
+		<div class="style">
+			Hot Stones Therapy
 		</div>
 
 		<div class="see">See all Services</div>
