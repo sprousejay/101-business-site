@@ -92,7 +92,9 @@
 
 		<div class="men">Men rarely acknowledge how much they love to get a massage... But I want to say, that without my afterwork Friday massage sessions here, my productivity would've been so much lower...</div>
 
-		Rhode Gentlebear
+		<div class="bear">
+			Rhode Gentlebear
+		</div>
 	</div>
 
 	
