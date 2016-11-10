@@ -4,6 +4,8 @@
 	<title>Fiona Massage Salon</title>
 	<link rel="stylesheet" type="text/css" href="banana.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
 </head>
 <body>
 

@@ -9,16 +9,14 @@
 
 <?php include 'header.php';?>
 
-	<div class="container">
-    	<img class="flowers" src="images/index-03.jpg"/>
-        	<div class="message">
-        		Highly customized upscale massage for your pleasure
-        	<div>
+	<div class="flowers">
+		<div class="homeTitle">
+        	<h1 class="message">Highly customized upscale massage for your pleasure</h1>
         	<div class="mission">
   				Call us for help and set up yourself a massage session, that will be relaxing for your body and for your spirit!
   			</div>
-    	</p>
-    </div>
+  		</div>
+  	</div>
 
 	<div class="pros">
 		
