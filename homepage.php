@@ -1,5 +1,5 @@
 <?php
-	$currentPage = "Masseurs";
+	$currentPage = "Home";
 	function isCurrentPage(){
 		if ($pageName == $currentPage) {
 			echo "nav__link--Active";
@@ -9,7 +9,16 @@
 
 <?php include 'header.php';?>
 
-	<img src="images/index-03.jpg" img class="flowers">
+	<div class="container">
+    	<img class="flowers" src="images/index-03.jpg"/>
+        	<div class="message">
+        		Highly customized upscale massage for your pleasure
+        	<div>
+        	<div class="mission">
+  				Call us for help and set up yourself a massage session, that will be relaxing for your body and for your spirit!
+  			</div>
+    	</p>
+    </div>
 
 	<div class="pros">
 		
@@ -35,13 +44,13 @@
 			</div>
 		</div>
 
-		<div class="stuff">
-			<div class="stuff__title">
+		<div class="special__stuff">
+			<div class="special-stuff__title">
 				Flexiblity
 			</div>
 			<img src="images/index-04.png" img class="stuff__img">
 
-			<div class="what">
+			<div class="special-what">
 				We understand that people rarely have time to go to the message salon during the working day or week... So we work 24/7, on-site and on the weekends as well!
 			</div>
 		</div>
@@ -49,6 +58,7 @@
 
 
 	<img src="images/index-05.jpg" img class="stones">
+
 <?php include 'massage.php';?>
 
 <?php include 'footer.php';?>

@@ -29,7 +29,7 @@
 					<i class="fa fa-map-o contact__image"></i>
 					<div>
 						<p class="contact__title">Address:</p>
-						<p class="contact__details">1163 N State St, Chicago,</p>
+						<p class="contact__details">1163 N State St. Chicago,</p>
 						<p class="contact__details">IL 60610, United States</p>
 					</div>
 				</div>

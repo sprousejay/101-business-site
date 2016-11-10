@@ -17,7 +17,7 @@
 			<a href="masseurs.php" class="nav__link">Masseurs</a>
 			<a href="services.php" class="nav__link <?php isCurrentPage('
 			Services', $currentPage); ?>">Services</a>
-			<a href="contacts.php" class="nav__link">Contacts</a>
+			<a href="contact.php" class="nav__link">Contacts</a>
 			<a href="booking.php" class="nav__link--booking">Book an appointment</a>
 		</div>
 	</div>
