@@ -8,7 +8,7 @@
 <body>
 
 	<div class="header">
-		<a href="hompage.php">
+		<a href="homepage.php">
 			<img src="images/logo.png" class="header-image">
 		</a>
 		<div class="nav">
