@@ -1,5 +1,3 @@
-
-
 ul, li {
 	margin: 0;
 	padding: 0;
@@ -37,6 +35,7 @@ ul, li {
 	background-color: #FD907A;
 	border-radius: 35px;
 	padding: 10px 25px;
+	font-weight: lighter;
 }
 
 .prices__nav-link--special {
@@ -499,4 +498,88 @@ h5 {
 	margin-left: auto;
 	background-color: #FD907A;
 	color: white;
+}
+
+
+
+
+
+
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+    padding: 50px 15px;
+    width: 100%;
+    background: white;
+    text-align: center;
+  
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: white;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+    padding-left: 120px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+    padding-right: 120px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color:#777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: grey;
+    color: white !important
 }

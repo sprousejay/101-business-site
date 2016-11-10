@@ -1,7 +1,7 @@
 	<div class="footer">
-			<a href="hompage.php">
-				<img src="images/logo.png" class="footer-image">
-			</a>
+		<a href="hompage.php">
+			<img src="images/logo.png" class="footer-image">
+		</a>
 			
 			<div class="store-info">
 				<div class="contact">
