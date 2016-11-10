@@ -52,7 +52,10 @@
 	</div>
 
 	<div class="telephone">
-		<i class="fa fa-phone call__image"></i>
+		<span class="fa-stack fa-3x">
+  			<i class="fa fa-circle-o fa-stack-2x"></i>
+  			<i class="fa fa-phone fa-stack-1x"></i>
+		</span>
 		<span class="phone">555-123-2322</span>
 	</div>
 

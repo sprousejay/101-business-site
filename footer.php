@@ -1,5 +1,5 @@
 	<div class="footer">
-		<a href="hompage.php">
+		<a href="homepage.php">
 			<img src="images/logo.png" class="footer-image">
 		</a>
 			
