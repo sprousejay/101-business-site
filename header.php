@@ -8,11 +8,11 @@
 <body>
 
 	<div class="header">
-		<a href="homepage.php">
+		<a href="home.php">
 			<img src="images/logo.png" class="header-image">
 		</a>
 		<div class="nav">
-			<a href="homepage.php" class="nav__link">Home</a>
+			<a href="home.php" class="nav__link">Home</a>
 			<a href="pricing.php" class="nav__link">Pricing</a>
 			<a href="masseurs.php" class="nav__link">Masseurs</a>
 			<a href="services.php" class="nav__link">Services</a>
