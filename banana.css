@@ -39,13 +39,9 @@ ul, li {
 	padding: 10px 25px;
 }
 
-.special-prices__nav__link--booking {
-	text-decoration: none;
+.prices__nav-link--special {
 	color: black;
 	background-color: white;
-	border-radius: 35px;
-	padding: 10px 25px;	
-
 }
 
 .wrapper {
@@ -251,75 +247,57 @@ h5 {
 	padding: 20px 20px;
 }
 
-.special-prices {
-	padding: 20px 20px;
+.prices--special {
 	background-color: #FD907A;
 }
 
-.special-prices__option {
-	color: white;
+.prices__option {
 	font-size: 40px;
 	text-align: center;
 	font-weight: lighter;
 	font-family: sans-serif;
 	padding-bottom: 40px;
 }
-.cost {
+
+.prices__option--special {
+	color: white;
+}
+
+.prices__cost {
 	color: #FD907A;
 	font-size: 60px;
 	text-align: center;
 	padding: 30px 10px;
 }
 
-.special-prices__cost {
+.prices__cost--special {
 	color: white;
-	font-size: 60px;
-	text-align: center;
-	padding: 30px 10px;	
 }
 
-.description {
+.prices__description {
 	text-align: center;
 	padding: 45px 25px;
 
 }
 
-.special-prices__description {
-	text-align: center;
-	padding: 45px 25px;
+.prices__description--special {
 	color: white;
 }
 
-.option {
-	font-size: 40px;
-	text-align: center;
-	font-weight: lighter;
-	font-family: sans-serif;
-	padding-bottom: 40px;
-}
-
-.sessions {
+.prices__sessions {
 	text-align: center;
 	padding-bottom: 15px;
 	font-weight: lighter;
 	color: grey;
 }
 
-.special-prices__sessions {
-	text-align: center;
-	padding-bottom: 15px;
+.prices__sessions--special {	
 	color: white;
 }
 
-.booker {
+.prices__booker {
 	text-align: center;
 	padding: 20px 25px;
-}
-
-.special-prices__booker {
-	text-align: center;
-	padding: 20px 25px;
-
 }
 
 .call {
