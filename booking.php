@@ -32,7 +32,7 @@
 				<li>10</li>
 				<li>17</li>
 				<li>24</li>
-				<li>31</li>
+				<li class="halloween">31</li>
 			</ul>
 		</div>
 	</div>
