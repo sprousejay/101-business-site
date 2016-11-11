@@ -30,7 +30,7 @@
 			</div>
 		</div>
 		
-	</div>
+</div>
 
 	<div class="see">
 		See all Services

@@ -7,6 +7,7 @@
 	}
 ?>
 
+
 <?php include 'header.php';?>
 
 	<h1>Salon's Team</h1>

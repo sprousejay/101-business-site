@@ -200,7 +200,6 @@ h5 {
 	font-size: 30px;
 }
 
-
 .locate {
 	font-family: sans-serif;
 	font-weight: bold;
@@ -306,6 +305,7 @@ h5 {
 	padding-top: 40px;
 	font-family: sans-serif;
 	font-weight: lighter;
+	color: #001A48;
 }
 
 .call__image {
@@ -320,6 +320,7 @@ h5 {
 	text-align: center;
 	padding-bottom: 40px;
 	padding-top: 30px;
+	color: #001A48;
 }
 
 .fa-stack {
@@ -330,22 +331,26 @@ h5 {
 	text-align: center;
 	font-size: 40px;
 	padding-bottom: 15px;
+	color: #001A48;
 }
 
 .service-cost {
 	font-size: 25px;
+	color: #001A48;
 }
 
 .money {
 	font-size: 40px;
 	padding-left: 10px;
 	font-family: sans-serif;
+	color: #001A48;
 }
 
 .dinero {
 	text-align: center;
 	padding-bottom: 20px;
 	font-family: sans-serif;
+	color: #001A48
 }
 
 .duration {
@@ -353,6 +358,7 @@ h5 {
 	font-size: 20px;
 	padding-bottom: 45px;
 	font-family: sans-serif;
+	color: #001A48;
 }
 
 .customers {
@@ -380,6 +386,7 @@ h5 {
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	color:	#001A48;
 
 }
 
@@ -399,6 +406,7 @@ h5 {
 	display: flex;
 	justify-content: space-around;
 	padding-bottom: 40px;
+	color: #001A48;
 }
 
 .listItem {
@@ -473,6 +481,7 @@ h5 {
 .pros {
 	display: flex;
 	justify-content: space-around;
+	color: #001A48;
 }
 
 .stuff {
@@ -523,51 +532,37 @@ h5 {
 
 
 
-
-
-
-
-ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}
-
-/* Month header */
 .month {
-    padding: 50px 15px;
+    padding: 20px 15px;
     width: 100%;
-    background: white;
     text-align: center;
-  
+ 	color: #616161;
+ 	font-family: sans-serif;
+ 	font-size: 30px;
+ 	font-weight: bold;
 }
 
-/* Month list */
 .month ul {
     margin: 0;
     padding: 0;
 }
 
 .month ul li {
-    color: black;
+    color: white;
     font-size: 20px;
-    text-transform: uppercase;
     letter-spacing: 3px;
-    background-color: white;
 }
 
-/* Previous button inside month header */
 .month .prev {
     float: left;
     padding-top: 10px;
-    padding-left: 120px;
 }
 
-/* Next button */
 .month .next {
     float: right;
     padding-top: 10px;
-    padding-right: 120px;
 }
 
-/* Weekdays (Mon-Sun) */
 .weekdays {
     margin: 0;
     padding: 10px 0;
@@ -581,11 +576,11 @@ body {font-family: Verdana, sans-serif;}
     text-align: center;
 }
 
-/* Days (1-31) */
+
 .days {
     padding: 10px 0;
-    background: #eee;
     margin: 0;
+    color: #FD907A;
 }
 
 .days li {
@@ -594,13 +589,7 @@ body {font-family: Verdana, sans-serif;}
     width: 13.6%;
     text-align: center;
     margin-bottom: 5px;
-    font-size:12px;
-    color:#777;
-}
-
-/* Highlight the "current" day */
-.days li .active {
-    padding: 5px;
-    background: grey;
-    color: white !important
+    font-size:20px;
+    color:#FD907A;
+    font-weight: bold;
 }

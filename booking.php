@@ -1,12 +1,3 @@
-<?php
-	$currentPage = "Booking";
-	function isCurrentPage(){
-		if ($pageName == $currentPage) {
-			echo "nav__link--Active";
-		}
-	}
-?>
-
 
 <?php include 'header.php';?>
 
@@ -15,20 +6,20 @@
     <li class="prev">&#10094;</li>
     <li class="next">&#10095;</li>
     <li>
-      
-      <span style="font-size:24px">October 2016</span>
+      <div class="month">October 2016
+      </div>
     </li>
   </ul>
 </div>
 
 <ul class="weekdays">
-  <li>Mo</li>
-  <li>Tu</li>
-  <li>We</li>
-  <li>Th</li>
-  <li>Fr</li>
-  <li>Sa</li>
-  <li>Su</li>
+  <li>Mon</li>
+  <li>Tue</li>
+  <li>Wed</li>
+  <li>Thu</li>
+  <li>Fri</li>
+  <li>Sat</li>
+  <li>Sun</li>
 </ul>
 
 <ul class="days"> 
@@ -41,7 +32,7 @@
   <li>7</li>
   <li>8</li>
   <li>9</li>
-  <li><span class="active">10</span></li>
+  <li>10</li>
   <li>11</li>
   <li>12</li>
   <li>13</li>
@@ -62,7 +53,9 @@
   <li>28</li>
   <li>29</li>
   <li>30</li>
+  <li>31</li>
 </ul>
+
 
 
 <?php include 'footer.php';?>
