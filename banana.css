@@ -1,10 +1,7 @@
 ul, li {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+	padding: 10px 10px;
+
+
 }
 
 .header {
@@ -530,66 +527,59 @@ h5 {
 	color: white;
 }
 
-
-
-.month {
-    padding: 20px 15px;
-    width: 100%;
-    text-align: center;
- 	color: #616161;
- 	font-family: sans-serif;
- 	font-size: 30px;
- 	font-weight: bold;
+.calendar {
+	display: flex;
+	margin-left: 300px;
 }
 
-.month ul {
-    margin: 0;
-    padding: 0;
-}
+.dots {
+	list-style-type: none;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-align: center;
 
-.month ul li {
-    color: white;
-    font-size: 20px;
-    letter-spacing: 3px;
-}
-
-.month .prev {
-    float: left;
-    padding-top: 10px;
-}
-
-.month .next {
-    float: right;
-    padding-top: 10px;
 }
 
 .weekdays {
-    margin: 0;
-    padding: 10px 0;
-    background-color:#ddd;
+	width: 100px;
+	display: flex;
+	flex-direction: column;
+}
+.month__header {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #616263;
+	font-weight: bold;
+	padding-top: 40px;
+	padding-bottom: 20px;
+
 }
 
-.weekdays li {
-    display: inline-block;
-    width: 13.6%;
-    color: #666;
-    text-align: center;
+.weekdays__header {
+	color: white;
+	background-color: #616161;
+	text-align: left;
+	padding: 10px 10px;
+	font-family: sans-serif;
+	margin-right: 20px;
+
+}
+
+.weekdays__dates {
+	color: #FD907A;
+	text-align: center;
+	list-style-type: none;
+	font-size: 20px;
+
+
 }
 
 
-.days {
-    padding: 10px 0;
-    margin: 0;
-    color: #FD907A;
-}
 
-.days li {
-    list-style-type: none;
-    display: inline-block;
-    width: 13.6%;
-    text-align: center;
-    margin-bottom: 5px;
-    font-size:20px;
-    color:#FD907A;
-    font-weight: bold;
-}
+
+
+
+
+
