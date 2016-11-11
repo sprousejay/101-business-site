@@ -1,5 +1,5 @@
 ul, li {
-	padding: 10px 10px;
+	padding: 0;
 }
 
 .header {
@@ -530,19 +530,25 @@ h5 {
 	margin-left: 300px;
 }
 
+.weekdays {
+	width: 100px;
+/*	display: flex;
+	flex-direction: column;*/
+}
+
 .dots {
 	list-style-type: none;
 	font-size: 30px;
 	font-weight: bold;
 	font-family: sans-serif;
-	text-align: center;
-
-}
-
-.weekdays {
-	width: 100px;
 	display: flex;
 	flex-direction: column;
+	align-items: flex-start;
+
+}
+.dots li {
+	height: 100px;
+	padding-left: 10px;
 }
 .month__header {
 	text-align: center;
