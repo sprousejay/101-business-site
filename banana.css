@@ -138,9 +138,10 @@ h5 {
 .contactForm {
 	display: flex;
 	flex-direction: column;
-	padding: 5px 50px;
+	padding: 5px 0;
 	font-family: sans-serif;
 	font-weight: lighter;
+	width: 100%;
 }
 
 .contactRow {
@@ -193,6 +194,7 @@ h5 {
 .reference__title {
 	text-align: left;
 	font-size: 30px;
+	padding-left: 50px;
 }
 
 .locate {
@@ -200,7 +202,7 @@ h5 {
 	font-weight: bold;
 	display: flex;
 	align-items: baseline;
-	padding-left: 10px;
+	padding-left: 50px;
 }
 
 .locate__details {
@@ -581,10 +583,17 @@ h5 {
 .halloween {
 	color: white;
 	background-color: #001B4B;
-	width: 100%;
+	width: 80%;
 	text-align: left;
 }
 
 .nav__link--active {
 	color: #001B4B;
+}
+
+.closed {
+	color: grey;
+	background-color: lightgrey;
+	width: 80%;
+	text-align: left;
 }

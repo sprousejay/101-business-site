@@ -5,7 +5,7 @@
 <div class="pageContent">
 	<div class="reference">
 
-		<p class="reference__title">Find us</p>
+		<p class="reference__title">Find Us</p>
 			
 		<div class="locate">
 			<i class="fa fa-map-o contact__image"></i>
@@ -40,38 +40,12 @@
 				<p class="locate__title">Opening Hours:</p>
 				<p class="locate__details">Mon-Fri: 9am-6pm;</p>
 				<p class="locate__details">Sun: 10am-1pm</p>
-				<a href="booking.php" class="nav__link--booking">Book an appointment</a>
+				<a href="booking.php" class="nav__link--booking">Book An Appointment</a>
 			</div>
 		</div>
 	</div>
 	
-
-	<div class="touch">
-		<h1>Get in touch with us</h1>
-	
-
-		<form class="contactForm">
-			<div class="contactRow">
-				<div class="column">
-					<label>Your name *</label>
-					<input class="formInput" type="text">
-				</div>
-
-				<div class="column">
-					<label>Subject</label> 
-					<input class="formInput" type="text">
-				</div>
-			</div>
-
-			<label>Email address *</label>
-			<input class="formInput" type="text"> 
-
-			<label>Your message *</label>
-			<textarea class="formInput"></textarea>
-
-			<input class="sendButton" type="submit" value="Send">
-		</form>
-	</div>
+	<?php include 'form.php';?>
 </div>
 
 	<div class="map">

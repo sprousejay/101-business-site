@@ -14,7 +14,7 @@
 			<ul class="dots">
 				<li></li>
 				<li>2</li>
-				<li>9</li>
+				<li class="closed">9</li>
 				<li>16</li>
 				<li>23</li>
 				<li>30</li>
@@ -28,7 +28,7 @@
 			<ul class="dots">
 				<li></li>
 				<li>3</li>
-				<li>10</li>
+				<li class="closed">10</li>
 				<li>17</li>
 				<li>24</li>
 				<li class="halloween">31</li>
