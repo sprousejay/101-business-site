@@ -584,3 +584,7 @@ h5 {
 	width: 100%;
 	text-align: left;
 }
+
+.nav__link--active {
+	color: #001B4B;
+}

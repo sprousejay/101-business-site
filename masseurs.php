@@ -1,4 +1,5 @@
 <?php include 'header.php';?>
+<?php include 'team-members.php'; ?>
 
 	<h1>Salon's Team</h1>
 	

@@ -1,4 +1,6 @@
-<?php include 'header.php';?>
+<?php include 'header.php';
+	$currentPage = "pricing";
+?>
 
 	<div class="package">
 		<div class="prices">

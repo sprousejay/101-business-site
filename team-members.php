@@ -1,14 +1,17 @@
 <?php 
-    $employees = array(
-        0 => array(
-            "name" => "Mary Casserole",
-            "title" => "Salon Owner",
-            "bio" => "Mary founded the salon with her own principal capital, which earned by working at other massage salons and saving money for her dream. It makes a statemnet about how powerful and independent individual she is! She is a strong believer in the healing and revitalizing power of the massage therapy.",
-            "facebook" => "http://facebook.com/marycasserole",
-            "twitter" => "http://twitter.com/marycasserole",
-            "google" => "http://plus.google.com/u/0/+marycasserole"
-            ),
-        1 => ...,
-        ...
-    );
+if (isset($_POST['Submit'])){
+    $to = "email@gmail.com.com"; 
+    $from = $_POST['email']; 
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $subject = "Form submission";
+    $subject2 = "Copy of your form submission";
+    $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
+    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2);
+    echo "Mail Sent.";
+    }
 ?>

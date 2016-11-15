@@ -1,4 +1,6 @@
 <?php include 'header.php';?>
+<?php ?>
+
 
 	<div class="flowers">
 		<div class="homeTitle">
