@@ -25,7 +25,7 @@
 			<img src="images/logo.png" class="header-image">
 		</a>
 		<div class="nav">
-			<a href="home.php" class="nav__link">Home</a>
+			<a href="home.php" class="nav__link"><?php if ($currentPage == 'home') {echo "$currentPage";?>Home</a>
 			<a href="pricing.php" class="nav__link">Pricing</a>
 			<a href="masseurs.php" class="nav__link">Masseurs</a>
 			<a href="services.php" class="nav__link">Services</a>
