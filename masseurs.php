@@ -1,13 +1,3 @@
-<?php
-	$currentPage = "Masseurs";
-	function isCurrentPage(){
-		if ($pageName == $currentPage) {
-			echo "nav__link--Active";
-		}
-	}
-?>
-
-
 <?php include 'header.php';?>
 
 	<h1>Salon's Team</h1>

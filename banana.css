@@ -581,4 +581,6 @@ h5 {
 .halloween {
 	color: white;
 	background-color: #001B4B;
+	width: 100%;
+	text-align: left;
 }

@@ -1,11 +1,4 @@
-<?php
-	$currentPage = "Contacts";
-	function isCurrentPage(){
-		if ($pageName == $currentPage) {
-			echo "nav__link--Active";
-		}
-	}
-?>
+
 
 <?php include 'header.php';?>
 

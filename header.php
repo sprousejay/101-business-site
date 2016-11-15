@@ -1,3 +1,14 @@
+<?php
+
+	$currentPage = "home.php";
+
+  function isCurrentPage($pageName, $currentPage) {
+   if ($pageName == $currentPage) {
+    echo "pagesItem--currentPage";
+   }
+  }
+?>
+
 <!DOCTYPE html>
 <html>
 <head>

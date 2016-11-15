@@ -1,13 +1,4 @@
-<?php
-	$currentPage = "Pricing";
-	function isCurrentPage(){
-		if ($pageName == $currentPage) {
-			echo "nav__link--Active";
-		}
-	}
-?>
-
-	<?php include 'header.php';?>
+<?php include 'header.php';?>
 
 	<div class="package">
 		<div class="prices">
