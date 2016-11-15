@@ -31,7 +31,7 @@
 			<div class="prices__cost">$500</div>
 			<div class="prices__sessions">4 SESSIONS</div>
 
-			<p class="prices__description">Try our "Hot Stones" or "Stones and Sticks" massages, which are both fun and good for your overall health and wellbeing!</p>
+			<p class="prices__description">Try our "Hot Stones" or "Stones and Sticks" massages, which are both fun and good for your overall health and well being!</p>
 
 			<div class="prices__booker"><a href="booking.php" class="nav__link--booking">Book an appointment</a></div>
 		</div>
