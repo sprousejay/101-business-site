@@ -1,7 +1,7 @@
 <?php
 
   function isCurrentPage($active, $currentPage) {
-   if ($nav__link == $currentPage) {
+   if ($active == $currentPage) {
     echo "nav__link--active";
    }
   }

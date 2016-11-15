@@ -1,3 +1,4 @@
+<?php $currentPage = 'home';?>
 <?php include 'header.php';?>
 
 

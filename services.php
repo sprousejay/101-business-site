@@ -1,3 +1,4 @@
+<?php $currentPage = 'services';?>
 <?php include 'header.php';?>
 
 	<div class="wrapper">

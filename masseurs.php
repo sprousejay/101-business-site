@@ -1,3 +1,4 @@
+<?php $currentPage = 'masseurs';?>
 <?php include 'header.php';?>
 <?php include 'team-members.php'; ?>
 

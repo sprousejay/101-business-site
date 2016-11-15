@@ -1,4 +1,4 @@
-
+<?php $currentPage = 'contacts';?>
 
 <?php include 'header.php';?>
 
