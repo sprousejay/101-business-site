@@ -1,6 +1,5 @@
 <?php include 'header.php';?>
 
-
 <div class="month">
 		<div class="month__header">October 2016
 		</div>

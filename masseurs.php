@@ -58,26 +58,26 @@
 
 	<h1>Contact us</h1>
 
-	<form class="contactForm">
+	<form class="contactForm" method="post">
 		<div class="contactRow">
 			<div class="column">
 				<label>Your name *</label>
-				<input class="formInput" type="text">
+				<input name="name" class="formInput" type="text">
 			</div>
 
 			<div class="column">
 				<label>Subject</label> 
-				<input class="formInput" type="text">
+				<input name="subject" class="formInput" type="text">
 			</div>
 		</div>
 
 		<label>Email address *</label>
-		<input class="formInput" type="text"> 
+		<input name="email" class="formInput" type="text"> 
 
 		<label>Your message *</label>
-		<textarea class="formInput"></textarea>
+		<textarea name="message" class="formInput"></textarea>
 
-		<input class="sendButton" type="submit" value="Send">
+		<input name="Submit" class="sendButton" type="submit" value="Send">
 	</form>
 	
 
