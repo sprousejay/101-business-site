@@ -1,6 +1,7 @@
 <?php $currentPage = 'masseurs';?>
 <?php include 'header.php';?>
-<?php include 'team-members.php'; ?>
+<?php include 'email.php'; ?>
+<?php include 'team-members.php';?>
 
 	<h1>Salon's Team</h1>
 	

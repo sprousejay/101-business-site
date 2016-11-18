@@ -1,6 +1,8 @@
 <?php $currentPage = 'contacts';?>
 
 <?php include 'header.php';?>
+<?php include 'email.php'; ?>
+
 
 <div class="pageContent">
 	<div class="reference">
